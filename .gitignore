@@ -25,6 +25,10 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.idea/
+node_modules
+package-lock.json
+james_rider_challange/bin/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
