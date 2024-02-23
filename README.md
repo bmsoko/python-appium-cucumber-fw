@@ -16,12 +16,11 @@ Follow along all the necessary configuration for each of the below pre-requisite
 1. `python3 -m venv env_name`
 2. `source env_name/bin/activate`
 3. `pip3 install -r requirements.txt`
-4. Make sure you open the Android Emulator and had connected your real device
+4. Make sure you open the Android Emulator and had connected your real device or emulator turned on
 
 
 # How to run test
-- In order to execute all tests : `behave` 
-
+- In order to execute all tests type `behave` in terminal. 
 
 - With Allure report  `behave -f allure_behave.formatter:AllureFormatter -o "reports" features/tests/[FEATURE_TO_RUN]_test.feature`
 
