@@ -13,4 +13,7 @@ class PhoneNumberPage(Page):
         pn.send_keys(phone_number)
         self.click(*self.CONTINUE_BTN)
 
+    def tap_continue(self):
+        self.click(*self.CONTINUE_BTN)
+
 

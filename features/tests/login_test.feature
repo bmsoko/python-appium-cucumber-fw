@@ -5,7 +5,7 @@ Feature: Login Screen
 
   Scenario Outline: User can successfully login
     Given user taps on get started button
-    When user enters invalid <data>
+    When user enters invalid <data> as phone number
     Then user verifies that error message Something went wrong, please try again is shown
 
     Examples:
