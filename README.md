@@ -1,5 +1,5 @@
 # James Rider Test FW
-<insertar imagen fw aca>
+
 
 # Pre-requisites
 Follow along all the necessary configuration for each of the below pre-requisites, including global variables.
@@ -18,15 +18,30 @@ Follow along all the necessary configuration for each of the below pre-requisite
 3. `pip3 install -r requirements.txt`
 4. Make sure you open the Android Emulator and had connected your real device or emulator turned on
 
+# Code Structure
+![Screenshot 2024-02-24 at 01.26.22.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F8_%2F8mn489mx4fg__hl81m6jtgfh0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_GPEmta%2FScreenshot%202024-02-24%20at%2001.26.22.png)
+![img.png](img.png)
+
 
 # How to run test
 - In order to execute all tests type `behave` in terminal. 
 
-- With Allure report  `behave -f allure_behave.formatter:AllureFormatter -o "reports" features/tests/[FEATURE_TO_RUN]_test.feature`
+### Reporting
+- With Allure report, execute this command in  `behave -f allure_behave.formatter:AllureFormatter -o "reports" features/tests/[FEATURE_TO_RUN]_test.feature`
+
+### Comments
+- In order to execute tests related to profile, you need to follow the next steps:
+  1. Open `environment.py` and comment line 13 `"appium:noReset": "true",` 
+  2. Execute the test, it will fail.
+  3. Follow all the steps in the app to reach the `Rides` screen.
+  4. Uncomment line in step 1, and execute the test again.
 
 
-
-
+## TO DOs
+1. "Dockerizing" the fw
+2. Ask DEV possibilities to avoid/remove 6-Digit code in testing stage.
+3. Add some code improvements.
+4. Please notice that, no branching strategy was followed but that can be applied with ease.
 
 
 
