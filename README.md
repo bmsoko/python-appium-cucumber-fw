@@ -42,6 +42,7 @@ Follow along all the necessary configuration for each of the below pre-requisite
 2. Ask DEV possibilities to avoid/remove 6-Digit code in testing stage.
 3. Add some code improvements.
 4. Please notice that, no branching strategy was followed but that can be applied with ease.
+5. Add capabilities to make the tests work with cloud testing tools such as `Browserstack`, `Saucelabs`, etc.
 
 
 
