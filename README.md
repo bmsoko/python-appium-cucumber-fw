@@ -19,7 +19,7 @@ Follow along all the necessary configuration for each of the below pre-requisite
 4. Make sure you open the Android Emulator and had connected your real device or emulator turned on
 
 # Code Structure
-![Screenshot 2024-02-24 at 01.26.22.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F8_%2F8mn489mx4fg__hl81m6jtgfh0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_GPEmta%2FScreenshot%202024-02-24%20at%2001.26.22.png)
+![FW Structure.png](..%2F..%2F..%2FDesktop%2FFW%20Structure.png)
 ![img.png](img.png)
 
 
