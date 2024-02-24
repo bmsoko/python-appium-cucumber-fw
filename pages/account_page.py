@@ -6,5 +6,5 @@ class AccountPage(Page):
     PROFILE_NAME_BTN = (By.ID, 'com.hdw.james.rider:id/profileName')
     ACCOUNT_PAGE_TITLE = (By.XPATH, '//android.widget.TextView[@text="Account"]')
 
-    def tap_profile_btn(self):
+    def tap_profile(self):
         self.click(*self.PROFILE_NAME_BTN)

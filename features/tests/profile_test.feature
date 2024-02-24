@@ -10,6 +10,6 @@ Feature: Account
     When user access account page
     And user opens profile
     And user attempts to update name with text: update
-    Then user sees Profile Updated successfully message
+    Then user sees Profile updated successfully message
     When user opens profile
     Then user sees that first and last name are updated
