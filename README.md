@@ -24,6 +24,7 @@ Follow along all the necessary configuration for each of the below pre-requisite
 
 
 # How to run test
+- Run Appium Server with `appium --log-level debug:debug --relaxed-security`
 - In order to execute all tests type `behave` in terminal. 
 
 ### Reporting
