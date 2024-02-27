@@ -27,4 +27,4 @@ def step_then_user_sees_message_profile(context):
     ln = context.last_name_update
     fn = context.first_name_update
     assert ln in last_name_text, f'Expected {ln} to be in {last_name_text}'
-    assert fn in first_name_text, f'Expected {context.fist_name_update} to be in {first_name_text}'
+    assert fn in first_name_text, f'Expected {fn} to be in {first_name_text}'

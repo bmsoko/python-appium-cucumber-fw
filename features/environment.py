@@ -11,15 +11,16 @@ def before_scenario(context, scenario):
         "appium:appPackage": "com.hdw.james.rider",
         "appium:appActivity": ".viewlayer.launcher.LauncherActivity",
         "appium:noReset": "true",
+        # "appium:fullReset": "true",
         "appium:adbExecTimeout": "1200000",
     }
     context.driver = webdriver.Remote('http://localhost:4723', desired_capabilities=desired_capabilities)
-    context.driver.implicitly_wait(5000)
+    context.driver.implicitly_wait(15000)
     context.app = Application(context.driver)
-    context.first_name_update = ''
-    context.last_name_update = ''
+    context.first_name_update = ""
+    context.last_name_update = ""
 
 
 def after_scenario(context, scenario):
-    # context.driver.quit()
     pass
+    # context.driver.quit()

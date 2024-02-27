@@ -20,7 +20,7 @@ class ProfilePage(Page):
         return fn
 
     def get_last_name_text(self):
-        ln = self.find_element(*self.LAST_NAME_INPUT)
+        ln = self.find_element(*self.LAST_NAME_INPUT).text
         return ln
 
 
